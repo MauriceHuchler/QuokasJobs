@@ -47,6 +47,7 @@ recipe take @a[team=!magier] minecraft:brewing_stand
 recipe take @a[team=!magier] minecraft:netherite_pickaxe_smithing
 recipe take @a[team=!magier] minecraft:book
 recipe take @a[team=!magier] quokas_jobs:rotten_to_leather
+recipe take @a[team=!magier] quokas_jobs:beef_jerky
 
 
 # Abenteurer

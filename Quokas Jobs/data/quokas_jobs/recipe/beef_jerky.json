@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:rotten_flesh"
+      }
+    ],
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": "\"Beef Jerky\"",
+      "minecraft:rarity": "uncommon",
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true,
+        "eat_seconds": 0.3,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:hunger",
+              "amplifier": 1,
+              "duration": 10,
+              "ambient": false,
+              "show_particles": true,
+              "show_icon": true
+            },
+            "probability": 0.1
+          },
+          {
+            "effect": {
+              "id": "minecraft:instant_health",
+              "amplifier": 3,
+              "ambient": false,
+              "show_particles": false,
+              "show_icon": false
+            },
+            "probability": 1
+          }
+        ]
+      },
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:unbreaking": 0
+        },
+        "show_in_tooltip": false
+      },
+      "minecraft:lore": [
+        "\"vegan\""
+      ]
+    },
+    "count": 2,
+    "id": "minecraft:leather"
+  }
+}
