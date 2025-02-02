@@ -1,0 +1,11 @@
+{
+    "values": [
+        "quokas_jobs:team/team_init",
+        "quokas_jobs:onjoin/player_reconnect",
+        "quokas_jobs:onjoin/apply_datapack",
+        "quokas_jobs:onjoin/first_join",
+        "quokas_jobs:recipes/init_recipes",
+        "quokas_jobs:team/miner/effect_miner_tick",
+        "quokas_jobs:team/magier/effect_magier_tick"
+    ]
+}

@@ -1,0 +1,1 @@
+scoreboard objectives add Left minecraft.custom:minecraft.leave_game

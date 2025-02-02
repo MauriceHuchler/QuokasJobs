@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      " X ",
+      "X#X",
+      " X "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:diamond"
+      },
+      "#": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "result": {
+      "id": "minecraft:ender_pearl",
+      "components": {
+        "minecraft:item_name": "\"Ultra Pearl\"",
+        "minecraft:potion_contents": {
+          "potion": "minecraft:healing",
+          "custom_color": 6305201,
+          "custom_effects": [
+            {
+              "id": "minecraft:health_boost",
+              "amplifier": 4,
+              "duration": 5,
+              "ambient": true,
+              "show_particles": true,
+              "show_icon": false
+            }
+          ]
+        },
+        "minecraft:rarity": "epic",
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "type": "minecraft:generic.safe_fall_distance",
+              "id": "minecraft:",
+              "amount": 10,
+              "operation": "add_value",
+              "slot": "mainhand"
+            }
+          ]
+        },
+        "minecraft:enchantments": {
+          "levels": {
+            "minecraft:multishot": 3,
+            "minecraft:unbreaking": 255,
+            "minecraft:silk_touch": 1,
+            "minecraft:frost_walker": 2
+          },
+          "show_in_tooltip": false
+        }
+      },
+      "count": 1
+    }
+  }

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_axe",
+      "count": 1
+    },
+    "title": "Baumeister",
+    "description": "Die Lehre beginnt!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/spruce_planks.png"
+  },
+  "criteria": {
+    "for_free": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
