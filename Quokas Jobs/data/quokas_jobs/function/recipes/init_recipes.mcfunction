@@ -30,7 +30,6 @@ recipe take @a[team=!baumeister] quokas_jobs:two_sand_to_glass
 
 recipe take @a[team=baumeister] minecraft:ender_chest
 
-recipe take @a[team=!baumeister] minecraft:anvil
 
 recipe take @a[team=!baumeister] minecraft:redstone_torch
 recipe take @a[team=!baumeister] minecraft:repeater
@@ -53,8 +52,11 @@ recipe take @a[team=!magier] quokas_jobs:beef_jerky
 # Abenteurer
 recipe take @a[team=!abenteurer] minecraft:fishing_rod
 recipe take @a[team=!abenteurer] minecraft:shield
+recipe take @a[team=!abenteurer] quokas_jobs:donkey_kong
+recipe take @a[team=!abenteurer] quokas_jobs:bundle
 
 # Miner
+recipe take @a[team=!miner] minecraft:anvil
 
 
 tellraw Quokamole "recipes set"

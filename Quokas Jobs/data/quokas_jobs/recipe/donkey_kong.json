@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "spawnegg",
+    "key": {
+      "#": {
+        "item": "minecraft:pufferfish"
+      }
+    },
+    "pattern": [
+      "#"
+    ],
+    "result": {
+      "components": {
+        "minecraft:entity_data": {
+          "id": "minecraft:donkey",
+          "HasVisualFire": true,
+          "Invulnerable": false,
+          "CustomName": "\"Shrek\"",
+          "CustomNameVisible": true,
+          "Passengers": [],
+          "Tags": [],
+          "Health": 20,
+          "attributes": [
+            {
+              "id": "minecraft:generic.jump_strength",
+              "base": 2,
+              "modifiers": []
+            }
+          ],
+          "NoAI": false,
+          "Team": "abenteurer",
+          "PersistenceRequired": true,
+          "ChestedHorse": true,
+          "Items": [
+            {
+              "id": "minecraft:bundle",
+              "count": 4
+            }
+          ]
+        }
+      },
+      "count": 1,
+      "id": "minecraft:donkey_spawn_egg"
+    }
+  }
