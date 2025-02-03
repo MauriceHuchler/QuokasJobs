@@ -47,7 +47,7 @@
           {
             "effect": {
               "id": "minecraft:instant_health",
-              "amplifier": 3,
+              "amplifier": 4,
               "ambient": false,
               "show_particles": false,
               "show_icon": false
