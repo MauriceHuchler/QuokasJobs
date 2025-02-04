@@ -1,0 +1,1 @@
+scoreboard objectives add xp_check dummy

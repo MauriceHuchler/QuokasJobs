@@ -34,6 +34,9 @@ recipe take @a[team=baumeister] minecraft:ender_chest
 recipe take @a[team=!baumeister] minecraft:redstone_torch
 recipe take @a[team=!baumeister] minecraft:repeater
 recipe take @a[team=!baumeister] minecraft:piston
+recipe take @a[team=!baumeister] minecraft:copper_block
+recipe take @a[team=!baumeister] minecraft:copper_grate
+recipe take @a[team=!baumeister] minecraft:copper_door
 
 
 

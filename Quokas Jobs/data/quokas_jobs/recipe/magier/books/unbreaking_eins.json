@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      {
+        "item": "minecraft:book"
+      },
+      {
+        "item": "minecraft:experience_bottle"
+      }
+    ],
+    "result": {
+      "components": {
+        "minecraft:stored_enchantments": {
+          "minecraft:unbreaking": 1
+        },
+        "minecraft:custom_name": "\"BuchT1\""
+      },
+      "count": 1,
+      "id": "minecraft:enchanted_book"
+    }
+  }

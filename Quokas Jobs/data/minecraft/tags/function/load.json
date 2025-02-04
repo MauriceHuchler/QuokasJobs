@@ -6,6 +6,8 @@
         "quokas_jobs:onjoin/first_join",
         "quokas_jobs:recipes/init_recipes",
         "quokas_jobs:team/miner/effect_miner_tick",
-        "quokas_jobs:team/magier/effect_magier_tick"
+        "quokas_jobs:team/magier/effect_magier_tick",
+        "quokas_jobs:team/magier/load",
+        "quokas_jobs:team/magier/enable_book_recipes"
     ]
 }

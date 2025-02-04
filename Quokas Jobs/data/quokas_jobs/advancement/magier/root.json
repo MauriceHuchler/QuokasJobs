@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "title": "Magier",
+      "description": "Die Lehre beginnt!",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "minecraft:textures/block/spruce_planks.png"
+    },
+    "criteria": {
+      "for_free": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "team": "magier"
+          },
+          "recipe_id": "quokas_jobs:magier/books/unbreaking_eins"
+        }
+      }
+    }
+  }
