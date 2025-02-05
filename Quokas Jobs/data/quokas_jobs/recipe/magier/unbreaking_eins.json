@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " X ",
+    " B ",
+    " G "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:experience_bottle"
+    },
+    "G": {
+      "item": "minecraft:book"
+    },
+    "B": {
+      "tag": "minecraft:boats"
+    }
+  },
+  "result": {
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:unbreaking": 1
+        },
+        "show_in_tooltip": true
+      },
+      "minecraft:custom_name": "\"Lehrlingsbuch\""
+    },
+    "count": 1,
+    "id": "minecraft:enchanted_book"
+  }
+}

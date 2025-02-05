@@ -3,8 +3,8 @@
       "icon": {
         "id": "minecraft:book"
       },
-      "title": "low level stuff",
-      "description": "oh oh",
+      "title": "Lehrling",
+      "description": "Der Anfang vom Ende",
       "frame": "task",
       "show_toast": false,
       "announce_to_chat": false,
@@ -12,18 +12,27 @@
     },
     "parent": "quokas_jobs:magier/root",
     "criteria": {
-      "crafted_book": {
+      "efficency_eins": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "player": {
             "team": "magier"
           },
-          "recipe_id": "quokas_jobs:magier/books/unbreaking_eins"
+          "recipe_id": "quokas_jobs:magier/books/efficency_eins"
+        }
+      },
+      "sweeping_edge": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": {
+            "team": "magier"
+          },
+          "recipe_id": "quokas_jobs:magier/books/sweeping_edge_eins"
         }
       }
     },
     "rewards": {
-      "function": "quokas_jobs:team/magier/enchanting_tier_eins"
+      "function": "quokas_jobs:team/magier/return_wand"
     },
-    "sends_telemetry_event": false
+    "sends_telemetry_event": true
   }

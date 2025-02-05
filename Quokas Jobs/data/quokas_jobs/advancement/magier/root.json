@@ -18,8 +18,7 @@
         "conditions": {
           "player": {
             "team": "magier"
-          },
-          "recipe_id": "quokas_jobs:magier/books/unbreaking_eins"
+          }
         }
       }
     }

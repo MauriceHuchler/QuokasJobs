@@ -31,26 +31,27 @@
         "nutrition": 0,
         "saturation": 0,
         "can_always_eat": true,
-        "eat_seconds": 0.3,
+        "eat_seconds": 0.8,
         "effects": [
           {
             "effect": {
               "id": "minecraft:hunger",
               "amplifier": 1,
-              "duration": 10,
+              "duration": 100,
               "ambient": false,
               "show_particles": true,
               "show_icon": true
             },
-            "probability": 0.1
+            "probability": 0.4
           },
           {
             "effect": {
               "id": "minecraft:instant_health",
-              "amplifier": 4,
-              "ambient": false,
-              "show_particles": false,
-              "show_icon": false
+              "amplifier": 0,
+              "duration": 1,
+              "ambient": true,
+              "show_particles": true,
+              "show_icon": true
             },
             "probability": 1
           }
@@ -66,7 +67,7 @@
         "\"vegan\""
       ]
     },
-    "count": 2,
+    "count": 1,
     "id": "minecraft:leather"
   }
 }

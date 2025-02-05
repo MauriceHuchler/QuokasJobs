@@ -27,7 +27,6 @@ recipe take @a[team=!baumeister] minecraft:diamond_hoe
 #glas
 recipe take @a[team=!baumeister] minecraft:glass
 recipe take @a[team=!baumeister] quokas_jobs:two_sand_to_glass
-
 recipe take @a[team=baumeister] minecraft:ender_chest
 
 
