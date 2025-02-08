@@ -36,6 +36,10 @@ recipe take @a[team=!baumeister] minecraft:piston
 recipe take @a[team=!baumeister] minecraft:copper_block
 recipe take @a[team=!baumeister] minecraft:copper_grate
 recipe take @a[team=!baumeister] minecraft:copper_door
+recipe take @a[team=!baumeister] minecraft:redstone_block
+recipe take @a[team=!baumeister] minecraft:observer
+recipe take @a[team=!baumeister] minecraft:comparator
+
 
 
 
@@ -51,6 +55,7 @@ recipe take @a[team=!magier] quokas_jobs:rotten_to_leather
 recipe take @a[team=!magier] quokas_jobs:beef_jerky
 
 
+
 # Abenteurer
 recipe take @a[team=!abenteurer] minecraft:fishing_rod
 recipe take @a[team=!abenteurer] minecraft:shield
@@ -59,6 +64,11 @@ recipe take @a[team=!abenteurer] quokas_jobs:bundle
 
 # Miner
 recipe take @a[team=!miner] minecraft:anvil
+recipe take @a[team=!miner] minecraft:minecart
+recipe take @a[team=!miner] minecraft:diamond_chestplate
+recipe take @a[team=!miner] minecraft:iron_chestplate
+recipe take @a[team=!miner] minecraft:minecart
+recipe take @a[team=!miner] minecraft:minecart
 
 
 tellraw Quokamole "recipes set"
