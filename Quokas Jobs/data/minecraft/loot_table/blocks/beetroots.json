@@ -131,7 +131,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:air",
-          "weight": 2
+          "weight": 99
         },
         {
           "type": "minecraft:item",

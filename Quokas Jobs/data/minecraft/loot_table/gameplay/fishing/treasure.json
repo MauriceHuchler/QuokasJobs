@@ -64,14 +64,24 @@
           "type": "minecraft:item",
           "name": "minecraft:blaze_rod",
           "weight": 50
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "weight": 99
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "weight": 1
         }
-      ],
-      "rolls": 1
+      ]
     }
   ],
   "random_sequence": "minecraft:gameplay/fishing/treasure"

@@ -6,15 +6,18 @@ recipe give @a *
 recipe take @a minecraft:iron_helmet
 recipe take @a minecraft:iron_chestplate
 recipe take @a minecraft:iron_boots
+recipe take @a minecraft:iron_leggings
 
 #remove diamond armor
 recipe take @a minecraft:diamond_helmet
 recipe take @a minecraft:diamond_chestplate
 recipe take @a minecraft:diamond_boots
+recipe take @a minecraft:diamond_leggings
 
 #remove netherite
 recipe take @a minecraft:netherite_helmet_smithing
 recipe take @a minecraft:netherite_chestplate_smithing
+recipe take @a minecraft:netherite_leggings_smithing
 recipe take @a minecraft:netherite_boots_smithing
 recipe take @a minecraft:netherite_axe_smithing
 recipe take @a minecraft:netherite_sword_smithing
